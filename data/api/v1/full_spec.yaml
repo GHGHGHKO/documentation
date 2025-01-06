@@ -20604,6 +20604,21 @@ components:
             on October 1st, 2024).
           format: int64
           type: integer
+        rum_mobile_replay_session_count_android_sum:
+          description: Shows the sum of all mobile RUM replay sessions on android
+            over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_ios_sum:
+          description: Shows the sum of all mobile RUM replay sessions on IOS over
+            all hours in the current date for the given org.
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_reactnative_sum:
+          description: Shows the sum of all mobile RUM replay sessions on React Native
+            over all hours in the current date for the given org.
+          format: int64
+          type: integer
         rum_replay_session_count_sum:
           description: Shows the sum of all RUM Session Replay counts over all hours
             in the current date for all organizations (To be introduced on October
@@ -21461,6 +21476,21 @@ components:
           description: Shows the sum of all mobile RUM lite sessions on Roku over
             all hours in the current date for the given org (To be introduced on October
             1st, 2024).
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_android_sum:
+          description: Shows the sum of all mobile RUM replay sessions on android
+            over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_ios_sum:
+          description: Shows the sum of all mobile RUM replay sessions on IOS over
+            all hours in the current date for the given org.
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_reactnative_sum:
+          description: Shows the sum of all mobile RUM replay sessions on React Native
+            over all hours in the current date for the given org.
           format: int64
           type: integer
         rum_replay_session_count_sum:
@@ -22353,6 +22383,21 @@ components:
           description: Shows the sum of all mobile RUM lite sessions on Roku over
             all hours in the current month for all organizations (To be introduced
             on October 1st, 2024).
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_android_agg_sum:
+          description: Shows the sum of all mobile RUM replay sessions on android
+            over all hours in the current month for all organizations.
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_ios_agg_sum:
+          description: Shows the sum of all mobile RUM replay sessions on IOS over
+            all hours in the current month for all organizations.
+          format: int64
+          type: integer
+        rum_mobile_replay_session_count_reactnative_agg_sum:
+          description: Shows the sum of all mobile RUM replay sessions on React Native
+            over all hours in the current month for all organizations.
           format: int64
           type: integer
         rum_replay_session_count_agg_sum:
