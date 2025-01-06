@@ -85,7 +85,7 @@
   },
   "events": {
     "name": "Events",
-    "description": "The Event Management API allows you to programmatically post events to the Events Explorer\nand fetch events from the Events Explorer. See the [Event Management page](https://docs.datadoghq.com/service_management/events/) for more information."
+    "description": "The Event Management API allows you to programmatically post events to the Events Explorer\nand fetch events from the Events Explorer. See the [Event Management page](https://docs.datadoghq.com/service_management/events/) for more information.\n**Update to the aggregation_key for Datadog monitor events:** Currently, the aggregation_key is unique per Monitor ID. Starting March 1st, we will update it to be unique per Monitor ID and Monitor Group. Please reach out to support if you have any question."
   },
   "fastly-integration": {
     "name": "Fastly Integration",
